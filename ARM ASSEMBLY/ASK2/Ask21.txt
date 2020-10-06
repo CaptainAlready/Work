@@ -1,0 +1,64 @@
+.arm
+.text
+.global main
+
+
+main:
+STMDB R13!, {R0-R6}
+MOV R6,#16
+LDR R0, =PINAKAENA
+LDR R1, =PINAKADYO
+LDR R5, =RESULT 
+
+
+BL loop
+loop:
+LDRB R2, [R0],#1
+LDRB R3, [R1],#1
+ADD R3,R3,R2
+STRB R3,[R5],#1
+SUB R6,R6,#1
+CMP R6,#00
+BNE loop
+
+LDMIA R13!, {R0-R6, PC} 
+
+.data
+PINAKAENA:
+.byte 0x20
+.byte 0x7F
+.byte 0xFE
+.byte 0x39
+.byte 0x16
+.byte 0x6F
+.byte 0x30
+.byte 0xB
+.byte 0x57
+.byte 0x2D
+.byte 0x72
+.byte 0x2D
+.byte 0x42
+.byte 0x17
+.byte 0x86
+.byte 0xA8
+PINAKADYO:
+.byte 0x13
+.byte 0x1
+.byte 0x12
+.byte 0x59
+.byte 0x5A
+.byte 0x70
+.byte 0x59
+.byte 0x20
+.byte 0x17
+.byte 0x62
+.byte 0x43
+.byte 0x53
+.byte 0x92
+.byte 0x8C
+.byte 0xC8
+.byte 0x43
+
+RESULT:
+.byte 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
