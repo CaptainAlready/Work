@@ -1,13 +1,8 @@
-﻿------------------------------------------------------------------------
-Αυτό είναι το αρχείο README του έργου. Στο αρχείο αυτό θα ήταν καλό να
-περιγράψετε το έργο. Περιγράψτε στον χρήστη (κάποιον που δεν γνωρίζει
-τίποτα για το έργο) ό,τι χρειάζεται να γνωρίζει. Τα σχόλιά σας θα πρέπει
-περιέχουν τουλάχιστον τις παρακάτω κατηγορίες:
-------------------------------------------------------------------------
+Simple code that generates users to create a very basic form of a social network and communication between them. 
+An exception class is not included.
 
-ΤΙΤΛΟΣ ΕΡΓΟΥ: PROJECT FB#2
-ΣΚΟΠΟΣ ΤΟΥ ΕΡΓΟΥ:
-ΕΚΔΟΣΗ ή ΗΜΕΡΟΜΗΝΙΑ:1.1release
-ΠΩΣ ΝΑ ΤΡΕΞΕΤΕ ΤΟ ΕΡΓΟ:main?
-ΔΗΜΙΟΥΡΓΟΙ:pan0$,F!R3
-ΟΔΗΓΙΕΣ ΧΡΗΣΗΣ:JUST DO SHIT 
+
+
+
+
+This was the main Project for the course "Object Oriented Programming in Java and C++" of the Second Semenster of CEID.
