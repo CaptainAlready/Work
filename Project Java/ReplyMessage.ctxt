@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=ReplyMessage
+comment1.params=user\ user2\ msg
+comment1.target=void\ rMessage(User,\ User,\ Message)
+comment2.params=
+comment2.target=void\ getLikes()
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4
