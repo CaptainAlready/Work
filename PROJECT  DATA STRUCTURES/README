@@ -1,0 +1,4 @@
+Project on Data Structures and Algorithms for the course "DATA STRUCTURES" of the fourth semester of CEID.
+Given two text files (hum.txt & temp.txt) we had to implement some of the most common data Structures(Lists,Binary Trees ect) 
+and Sorting Algorithms(Counting Sort,Interpolation Sort) to perform certain actions such as Sorting,Accessing and Deleting Information and more.
+All code is written in C++ on XCode.
